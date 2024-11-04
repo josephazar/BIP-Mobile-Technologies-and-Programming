@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UserPrivacyDemo</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_mobile">Mobile Number</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_age">Age</string>
+    <string name="button_save">Save</string>
+</resources>
