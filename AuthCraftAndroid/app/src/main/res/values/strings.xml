@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BIP_AUTH_APP</string>
+    <string name="logo_text">BIP AUTH APP</string>
+    <string name="logo_sub_text">Heart of the company</string>
+    <string name="txt_welcome">Welcome</string>
+    <string name="txt_login_info">Please write your mobile number. \n Ex: 01717110000</string>
+    <string name="edit_txt_mobile">Mobile Number</string>
+    <string name="txt_mobile_verification">Mobile Verification</string>
+    <string name="txt_mobile_verification_info">OTP has been sent on your mobile number. \n Please enter OTP to verify mobile number.</string>
+    <string name="txt_email_verification_info">OTP has been sent on your email address. \n Please enter OTP and retest your password.</string>
+    <string name="txt_mobile_verification_code">Verification Code</string>
+</resources>

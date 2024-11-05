@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="edit_text_color">#303030</color>
+    <color name="button_bg">#27517C</color>
+    <color name="bg">#E2E4ED</color>
+    <color name="tool_bg">#073579</color>
+    <color name="toolBar">#EFF2F5</color>
+    <color name="TransparentGrey">#7F000000</color>
+    <color name="logo_text">#FD2425</color>
+    <color name="menu_color_1">#ECF4FF</color>
+    <color name="menu_color_2">#EFF2F6</color>
+    <color name="text_gray">#6E6E6E</color>
+    <color name="green">#00B259</color>
+</resources>

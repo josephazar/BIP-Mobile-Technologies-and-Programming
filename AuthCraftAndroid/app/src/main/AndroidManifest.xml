@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AuthCraftAndroid"
+        tools:targetApi="31">
+        <activity
+            android:name=".user_authentication.ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user_authentication.UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user_authentication.forgot_password.ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user_authentication.forgot_password.VerifyCodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user_authentication.forgot_password.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user_authentication.MobileVerificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user_authentication.LoginWithMobileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user_authentication.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user_authentication.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

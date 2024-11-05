@@ -24,3 +24,67 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log
+dist/
+.env
+*.log
+
+# Android
+*.apk
+*.ap_
+*.dex
+*.class
+*.log
+*.idea/
+.gradle/
+local.properties
+/.cxx/
+/.android/
+/app/build/
+/app/intermediates/
+/app/output/
+/captures/
+/output/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# General
+.vscode/
+*.iml
+*.log
+*.bak
+*.tmp
+*.swp
+.project
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln
+*.cache
+out/
+
+# Exclude builds
+build/
+public/
+
+# Ignore all hidden files/folders at root
+.*
+!.gitignore
+
